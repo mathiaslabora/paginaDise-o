@@ -1,0 +1,25 @@
+/* body {
+  background-image: url('./fotos/autoDark.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+} */
+body{
+  background-size: 100%;
+  background: radial-gradient(#839FF0,#dbe8f5);
+}
+.carousel-item{
+  height: 400px;
+}
+
+.montar{
+  margin: -70px;
+  z-index: 999;
+}
+
+.usrCs{
+  right: 0;
+  display: inline;
+  margin:5px;
+}
