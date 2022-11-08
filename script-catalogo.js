@@ -1,14 +1,14 @@
 
 
 
-
+//apunto al html con el id correspondiente
 let carsPut = document.getElementById('carsPut');
 
 
+let arr = [1,,3,4]
 
 
-
-
+//arreglo con objetos que tienen los atributos necesarios para insertar las tarjetas de bootstrap
 const cars = [
     {
         'id': '0',
@@ -148,7 +148,7 @@ const cars = [
 
 //logica para carga de cards con imagenes
 for (let index = 0; index < cars.length; index++) {
-
+//por cada objeto del arreglo, inserta una tarjeta con los datos correspondientes.
     carsPut.innerHTML += `
     <div class="col">
           <div class="card shadow-sm">
@@ -167,5 +167,4 @@ for (let index = 0; index < cars.length; index++) {
           </div>
         </div>
         `
-
 }
