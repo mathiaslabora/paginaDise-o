@@ -1,12 +1,6 @@
 
-
-
 //apunto al html con el id correspondiente
 let carsPut = document.getElementById('carsPut');
-
-
-let arr = [1,,3,4]
-
 
 //arreglo con objetos que tienen los atributos necesarios para insertar las tarjetas de bootstrap
 const cars = [
